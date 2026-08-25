@@ -1,0 +1,4 @@
+# LAB 4 CRON STUDENT SLOT
+# Replace the example date/time and every absolute-path placeholder.
+# Keep --dry-run and --days 7 unchanged for the scheduled evidence run.
+0 0 1 1 * cd /ABSOLUTE/PATH/TO/REPOSITORY/labs/lab-04 && /usr/bin/bash /ABSOLUTE/PATH/TO/REPOSITORY/labs/lab-04/logmaint.sh --dir /ABSOLUTE/PATH/TO/REPOSITORY/labs/lab-04/fixture --days 7 --dry-run >> /ABSOLUTE/PATH/TO/REPOSITORY/labs/lab-04/scheduler-cron.log 2>&1

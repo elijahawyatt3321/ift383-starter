@@ -1,0 +1,12 @@
+2026-08-23T09:00:00Z web-01 INFO api OK request_complete
+2026-08-23T09:01:12Z web-02 ERROR api E_CONN database_unreachable
+2026-08-23T09:01:18Z web-01 WARNING auth W_RATE repeated_login
+2026-08-23T09:02:04Z web-03 ERROR worker E_TIMEOUT job_timeout
+2026-08-23T09:02:21Z web-02 INFO api OK request_complete
+2026-08-23T09:03:00Z web-01 CRITICAL api E_CERT certificate_expired
+2026-08-23T09:03:40Z web-03 ERROR worker E_TIMEOUT job_timeout
+2026-08-23T09:04:10Z web-02 WARNING auth W_RATE repeated_login
+2026-08-23T09:04:52Z web-01 ERROR api E_CONN database_unreachable
+2026-08-23T09:05:07Z web-03 INFO worker OK job_complete
+2026-08-23T09:05:44Z web-02 ERROR auth E_TOKEN token_rejected
+2026-08-23T09:06:30Z web-01 INFO api OK request_complete

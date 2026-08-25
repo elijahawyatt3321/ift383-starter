@@ -1,0 +1,20 @@
+{
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "config/app.conf",
+      "sha256": "4f722a0dd0ce4acfdb18962fb412987746e76b06cd138d5579eaa63898dbc720",
+      "size": 26
+    },
+    {
+      "path": "notes.txt",
+      "sha256": "638185426f045a868a3a4c30f3025efc10d31c91d172b0490b3e2ccf178fc65e",
+      "size": 21
+    },
+    {
+      "path": "missing.txt",
+      "sha256": "168f71829866c160ab4e681c7c251d1e39910b5dbc023874a3ca8a3735cde092",
+      "size": 20
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[Unit]
+Description=IFT 383 Lab 4 near-term user timer
+
+[Timer]
+OnActiveSec=2min
+Unit=lab4-logmaint.service
+
+[Install]
+WantedBy=timers.target

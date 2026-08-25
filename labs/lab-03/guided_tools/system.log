@@ -1,0 +1,4 @@
+INFO service inventory-api started
+ERROR disk space threshold reached
+WARN retry scheduled
+ERROR service restart required

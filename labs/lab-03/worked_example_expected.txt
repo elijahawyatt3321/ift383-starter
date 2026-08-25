@@ -1,0 +1,21 @@
+WORKED EXAMPLE: INTERMEDIATE STREAMS
+
+After awk (select exact status 404 and API paths):
+/api/users
+/api/jobs
+/api/users
+/api/jobs
+
+After sort:
+/api/jobs
+/api/jobs
+/api/users
+/api/users
+
+After uniq -c:
+      2 /api/jobs
+      2 /api/users
+
+After final deterministic sort:
+      2 /api/jobs
+      2 /api/users

@@ -1,0 +1,27 @@
+assignment: lab7
+# Predictions belong in personal notes and are not submitted or graded.
+observations:
+  q1: ""
+  q2: ""
+  q3: ""
+guided:
+  base_runtime: ""
+  base_package_manager: ""
+  base_approximate_size: ""
+  dockerfile_stage_order: ""
+  workflow_step_order: ""
+  regression_status: ""
+debug:
+  dockerfile_path_defect: ""
+  workflow_working_directory_defect: ""
+independent:
+  base_choice: "" # python-slim or python-bookworm
+  image_identifier: ""
+  podman_version: ""
+  container_exit_status: ""
+  operational_reason: ""
+  image_container_ci_sentence: ""
+quick_check:
+  q1: "" # A, B, C, or D
+  q2: "" # A, B, C, or D
+  q3: "" # numeric container exit status

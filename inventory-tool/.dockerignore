@@ -1,0 +1,7 @@
+.git/
+__pycache__/
+.pytest_cache/
+tests/
+*.pyc
+
+# STUDENT SLOT (Lab 7): add virtual-environment and generated-output exclusions.

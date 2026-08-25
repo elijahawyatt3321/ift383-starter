@@ -1,0 +1,24 @@
+assignment: lab3
+
+observations:
+  q1: ""
+  q2: ""
+
+guided_tools:
+  selects_files: ""
+  protects_spaced_filenames: ""
+  filters_records: ""
+  transforms_text: ""
+
+debugging:
+  caller_directory_defect: ""
+  count_sort_defect: ""
+
+independent:
+  input_line_count: ""
+  first_server_error_row: ""
+
+quick_check:
+  q1: ""
+  q2: ""
+  q3: ""

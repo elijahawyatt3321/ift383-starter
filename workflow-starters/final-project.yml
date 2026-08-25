@@ -1,0 +1,23 @@
+name: final-project
+
+# STUDENT SLOT (final project): replace manual-only activation with pushes to main.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out submitted commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+
+      - name: Run project tests
+        run: bash final-project/tests/run.sh
+
+      - name: Build project image
+        run: docker build --tag ift383-final:ci --file final-project/Dockerfile .

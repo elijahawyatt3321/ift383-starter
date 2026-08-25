@@ -1,0 +1,24 @@
+assignment: lab6
+# Predictions belong in personal notes and are not submitted or graded.
+observations:
+  q1: ""
+  q2: ""
+responsibilities:
+  entry_point: ""
+  cli: ""
+  scanner: ""
+  report: ""
+debug:
+  failing_check_id: ""
+  mismatch_cause: "" # one concrete sentence naming the original mismatch
+  final_passing_count: ""
+independent:
+  test_commit: ""
+  failing_status: ""
+  fix_commit: ""
+  final_status: ""
+  python_version: ""
+quick_check:
+  q1: "" # A, B, C, or D
+  q2: "" # A, B, C, or D
+  q3: "" # final passing-test count

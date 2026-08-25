@@ -1,0 +1,14 @@
+{
+  "services/api.json": {
+    "enabled": true,
+    "port": 8080
+  },
+  "services/legacy.json": {
+    "enabled": false,
+    "port": 9000
+  },
+  "services/worker.json": {
+    "concurrency": 2,
+    "enabled": true
+  }
+}

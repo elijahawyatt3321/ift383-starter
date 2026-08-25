@@ -1,0 +1,39 @@
+name: inventory-tool
+
+# STUDENT SLOT (Lab 7): replace manual-only activation with pushes to main.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out submitted commit
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+
+      - name: Install the course test runner
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pytest
+
+      - name: Run complete inventory tests
+        # Seeded defect: this working directory makes the documented paths wrong.
+        working-directory: inventory-tool/tests
+        run: >-
+          python3 -m pytest -q
+          tests/test_lab5_supplied.py
+          tests/test_lab6_supplied.py
+          tests/test_min_size.py
+          tests/test_symlink_skip.py
+
+      - name: Start the command-line entry point
+        working-directory: inventory-tool
+        run: python3 inventory.py --help
+
+      - name: Build the inventory image
+        run: docker build --tag ift383-inventory:ci inventory-tool

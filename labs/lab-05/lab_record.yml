@@ -1,0 +1,19 @@
+assignment: lab5
+# Predictions belong in personal notes and are not submitted or graded.
+observations:
+  q1: ""
+  q2: ""
+guided:
+  worked_example_command: ""
+  first_failing_check: ""
+debug:
+  directory_argument_repair: ""
+  extensionless_file_repair: ""
+independent:
+  command: ""
+  exit_status: ""
+  output_row: ""
+quick_check:
+  q1: "" # A, B, C, or D
+  q2: "" # A, B, C, or D
+  q3: "" # numeric record count

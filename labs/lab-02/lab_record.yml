@@ -1,0 +1,26 @@
+assignment: lab2
+
+observations:
+  q1: ""
+  q2: ""
+
+guided_practice:
+  shared_base_sha: ""
+  operations_diff_summary: ""
+  security_diff_summary: ""
+  non_overlapping_changes: ""
+
+debugging:
+  conflict_file: ""
+  conflict_markers_removed: ""
+  resolution_merge_parent_count: ""
+
+independent:
+  reason_code: ""
+  pull_request_number: ""
+  readme_branch_name: ""
+
+quick_check:
+  q1: ""
+  q2: ""
+  q3: ""

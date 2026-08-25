@@ -1,0 +1,13 @@
+brief: "" # exactly: self-designed, or one published fallback name
+problem: ""
+user_or_role: ""
+command: ""
+input: ""
+output: ""
+success_path: ""
+failure_case: ""
+out_of_scope: ""
+technical_path: "" # exactly: text-pipeline, bash-automation, or python-automation
+acceptance:
+  success_behavior: ""
+  failure_behavior: ""
