@@ -1,23 +1,25 @@
 assignment: lab1
 
 observations:
-  q1: ""
-  q2: ""
+  q1: "bash: cd: labs/lab-01: No such file or directory
+"
+  q2: "practice: practice: Is a directory"
 
 guided_practice:
-  job_seen_in_jobs: ""
-  foreground_process_interrupted: ""
-  vim_search_term_used: ""
+  job_seen_in_jobs: "yes"
+  foreground_process_interrupted: "yes"
+  vim_search_term_used: "max_connections"
 
 debugging:
-  greeting_permission_defect: ""
-  greeting_first_line_defect: ""
+  greeting_permission_defect: "execute permission was missing"
+  greeting_first_line_defect: "shebang named bashh instead of bash"
 
 independent:
-  field: ""
-  output_line: ""
+  field: "logged_in_users"
+  output_line: "LOGGED_IN_USERS: 2
+"
 
 quick_check:
-  q1: ""
-  q2: ""
+  q1: "744"
+  q2: "G"
   q3: ""
